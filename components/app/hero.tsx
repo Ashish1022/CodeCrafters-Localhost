@@ -25,16 +25,7 @@ const Hero = () => {
             <ChevronRight className="w-4 h-4 ml-2" />
           </Button>
         </Link>
-
-        <Link
-          className='flex items-center gap-2 px-4 py-1 text-sm font-normal shadow-sm text-muted-foreground '
-          href="/admin">
-          <p>Sign in as Admin</p>
-          <ChevronRight className="w-4 h-4" />
-        </Link>
-
       </div>
-
     </div>
   )
 }
