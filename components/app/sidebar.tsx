@@ -9,7 +9,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { CiSettings } from "react-icons/ci";
 import { IoStorefrontOutline } from "react-icons/io5";
-import { TbMessageBolt } from "react-icons/tb";
+import { TbChartArea, TbMessageBolt, TbUser } from "react-icons/tb";
 
 const Sidebar = () => {
   const { theme } = useTheme()
@@ -33,6 +33,18 @@ const Sidebar = () => {
       href: `/chat`,
       icon: TbMessageBolt,
       isActive: pathName === "/chat"
+    },
+    {
+      name: "Charts",
+      href: `/charts`,
+      icon: TbChartArea,
+      isActive: pathName === "/charts"
+    },
+    {
+      name: "Portfolio",
+      href: `/portfolio`,
+      icon: TbUser,
+      isActive: pathName === "/portfolio"
     },
 
   ]
