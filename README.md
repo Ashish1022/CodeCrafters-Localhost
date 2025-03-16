@@ -71,5 +71,5 @@ Make sure you have the following installed:
 This project is licensed under the MIT License.
 
 ## Contact
-For questions or contributions, reach out via [your-email@example.com] or open an issue on GitHub.
+For questions or contributions, reach out via [ashishjadhav@gmail.com] or open an issue on GitHub.
 
