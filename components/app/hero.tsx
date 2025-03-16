@@ -34,17 +34,6 @@ const Hero = () => {
         </Link>
 
       </div>
-      <div className='mt-[270px]  bg-black flex justify-center h-[700px] w-full ' >
-      </div>
-      <div className='absolute bottom-[220px]'>
-        <Image
-          src='/landing-page/landing-animation.gif'
-          alt='landing page animation'
-          width={1000}
-          height={700}
-          className='object-contain '
-        />
-      </div>
 
     </div>
   )
